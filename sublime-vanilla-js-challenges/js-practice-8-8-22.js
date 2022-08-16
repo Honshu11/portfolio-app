@@ -2,9 +2,9 @@
 
 //First button
 
-const button = document.getElementById('btn');
-button.addEventListener('click', buttonClicked);
+let button = document.getElementById('#btn');
+button.addEventListener('click', buttonClicked());
 
 function buttonClicked(){
-    console.log("clicked me");
+    console.log("button clicked");
 }
